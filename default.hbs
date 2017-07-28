@@ -12,7 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{!-- Styles'n'Scripts --}}
-    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="https://triplet.fi/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/blog.css"}}" />
 
     {{!-- This tag outputes SEO meta+structured data and other important settings --}}
     {{ghost_head}}
@@ -62,6 +63,7 @@
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    <script type="text/javascript" src="https://www.triplet.fi/js/app.js"></script>
 
     {{#if pagination.pages}}
     <script>
